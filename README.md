@@ -1,10 +1,10 @@
 ## projet_widgets
 ## Réaliser un site web qui contient plusieurs widgets:
-● Un widget météo
-● Un widget calculatrice
-● Un widget convertisseur
-● Un widget fête du jour
-● D’autres widgets supplémentaires sont possibles
+- Un widget météo
+- Un widget calculatrice
+- Un widget convertisseur
+- Un widget fête du jour
+- D’autres widgets supplémentaires sont possibles
 # 1. Widget météo
 L’utilisateur saisit ou choisit un nom de ville, il obtient la météo en
 temps réel.
