@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-top: 2rem;
+    font-family: 'Conv_arial-rounded-mt';
+}
+
+nav{
+    display: flex;
+}
+
+img:nth-child(2){
+    width: 100%;
+    height: 500px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+}
+
+section{
+    background-image: url(images/accueil_image.svg);
+    background-size: 100% ;
+    width: 100%;
+    
+}
+
+section img{
+    width: 100%;   
+}
+
+article{
+    display: flex;
+    align-items: center;
+}
+
+article:nth-child(1){
+    justify-content: center;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+article:nth-child(1) img{
+    margin-right: 10rem;
+    width: 15%;
+}
+
+article:nth-child(1) button{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+article:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 10rem;
+    font-size: 1.5rem;
+}
+
+article:nth-child(2) img{
+    margin-left: 10rem;
+    width: 10%;
+}
+
+article:nth-child(3){
+    justify-content: center;
+    margin-bottom: 10rem;
+    font-size: 1.5rem;
+}
+
+article:nth-child(3) img{
+    margin-right: 10rem;
+    width: 15%;
+}
+
+article:nth-child(4){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 8rem;
+}
+
+article:nth-child(4) img{
+    margin-left: 10rem;
+    width: 15%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #f0f1f2;
+    height: 15vh;
+    
+}
+
+footer img{
+    height: 3rem;
+    padding-top: 7rem;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 60%;
+    margin-bottom: 2rem;
+    
+}
+
+@font-face {
+	font-family: 'Conv_arial-rounded-mt';
+	src: url('font/arial-rounded-mt.eot');
+	src: local('☺'), url('font/arial-rounded-mt.woff') format('woff'), 
+    url('font/arial-rounded-mt.ttf') format('truetype'), 
+    url('font/arial-rounded-mt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
