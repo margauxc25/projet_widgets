@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: 'Conv_arial-rounded-mt';
+}
+aside img{
+    width: 10rem;
+    background-color: #F0F1F2;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    background-color: #F0F1F2;
+    
+}
+
+.logogithub{
+  width: 2rem;
+  padding-bottom: 0;
+}
+
+.logowedigo:hover{
+  padding-left: 0; 
+}
+
+.logogithub:hover{
+  padding-left: 0;
+}
+
+nav img:hover{
+    padding-left: 1rem;
+}
+
+nav p{
+  font-size: 12px;
+}
+
+
+
+nav img{
+    width: 8rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+   
+}
+
+h1{
+    padding-top: 1rem;
+    margin-left: 2%;
+    margin-right: 20%;
+}
+
+.calc {
+    display: flex;
+    flex-direction : column;
+    width: 330px;
+    height: 600px;
+    margin : 10px;
+    background-color: #BEE4BA;
+    border-radius: 20px;
+    border: solid 4px #252525;
+  }
+ 
+  
+ 
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .calc-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 15%;
+    color: #252525; 
+    background-color: #fff;
+    margin-left: 20%;
+    margin-top: 2rem;
+    border: solid #252525 4px ;
+    border-radius: 20px;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  
+  .secondary-display{
+    font-size:20px;
+    opacity : 0.8;
+    overflow-x : hidden;
+  }
+  
+  
+  .secondary-display::-webkit-scrollbar {
+    height : 4px;
+    background-color: #bdbdbd;
+    opacity: 0.7;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .secondary-display::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #fff;
+      border: 3px solid #555555;
+  }
+  
+  .primary-display::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .primary-display::-webkit-scrollbar {
+    height : 4px;
+    background-color: #bdbdbd;
+    opacity: 0.7;
+  }
+  .primary-display::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #fff;
+      border: 3px solid #252525;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+ 
+  .calc-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .calc-btn-primary {
+    cursor: pointer;
+    font-family: 'Conv_arial-rounded-mt';
+    margin: 10px 5px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #252525;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #252525;
+    border-radius: 100%;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .btn-bg{
+    background-color:#fff !important;
+    opacity : 0.9;
+    border: 4px solid #252525;
+    
+  }
+  .btn-bg-equal{
+    background-color:#fff !important;
+    border: 4px solid #252525;
+  }
+  .calc-btn-primary:focus {
+    outline:none
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .calc-btn-primary:active {
+    transform: scale(0.9);
+  }
+  
+  .calc-btn-clear {
+    margin: 20px 5px;
+    outline: none;
+    background-color: transparent;
+    color: #252525;
+    font-size: 30px;
+    padding: 10px 90px;
+    border: 4px solid #252525;
+    border-radius: 10px;
+    background-color:#fff !important;
+  }
+  /*flex-direction : column;
+    justify-content: center;
+    align-items: center;*/
+  .calc-btn-clear:active {
+    transform: scale(0.9);
+  }
+
+  @font-face {
+	font-family: 'Conv_arial-rounded-mt';
+	src: url('font/arial-rounded-mt.eot');
+	src: local('☺'), url('font/arial-rounded-mt.woff') format('woff'), 
+    url('font/arial-rounded-mt.ttf') format('truetype'), 
+    url('font/arial-rounded-mt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

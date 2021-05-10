@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="météo.css">
+    <title>Wedigo</title>
+</head>
+<body>
+
+    <nav>
+     
+        <a href="index.html"><img src="images/logo_wedigo2.jpg" class="logowedigo"></a>
+        <a href="page_météo.html"><img src="images/logo_meteo2.jpg" alt="Image soleil avec un nuage rose"></a>
+        <a href="page_calculatrice.html"><img src="images/logo_calculatrice2.jpg" alt="Image d'une calculaatrice verte"></a>
+        <a href="page_convertisseur.html"><img src="images/logo_convertiseur2.jpg" alt="Image d'un règle"></a>
+        <a href="#"><img src="images/logo_calendrier2.jpg" alt="Image d'un calendrier"></a>
+        <a href="https://github.com/margauxc25"><img src="images/1200px-Octicons-mark-github.svg.png" class="logogithub" alt="logo github"></a>
+        <p>© 2021 Wedigo All Right Reserved</p>
+      
+</nav>
+
+    <main>
+    <div class="api">
+        </div>
+      </div>
+      <section class="top-banner">
+        <div class="container">
+          <h1 class="heading">Choisisez votre ville</h1>
+          <form>
+            <input type="text" placeholder="Search for a city" autofocus>
+            <button type="submit">OK</button>
+            <span class="msg"></span>
+          </form>
+        </div>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities"></ul>
+        </div>
+      </section>
+    </main>
+
+      <script type="text/javascript" src="météo.js"></script>  
+</body>
+</html>
