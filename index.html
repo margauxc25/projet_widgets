@@ -4,48 +4,54 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style_index_desktop.css">
+        <link rel="stylesheet" href="./assets/css/index_desktop.css">
         <title>WEDIGO</title>
     </head>
     <body>
 
-        <a href="#"><img src="images/logo_wedigo.jpg"></a>
-        <nav>
-           
-            <ul>
-                <li><a href="page_météo.html">Météo</a></li>
-                <li><a href="page_calculatrice.html">Calculatrice</a></li>
-                <li><a href="page_convertisseur.html">Convertisseur</a></li>
-                <li><a href="#">Calendrier des fêtes</a></li>
-            </ul> 
-        </nav>
+        <header>
 
-        <section>
-            <img src="images/accueil_image.png" alt="Bienvenue sur Wedigo, un site qui vous propose des qidgets en Javascript.">
-        </section>
+            <a href="index.html"><img src="assets/images/logo.svg"></a>
+
+            <!--Début Menu-->
+            <nav>
+                <ul>
+                    <li><a href="page_meteo.html">Météo</a></li>
+                    <li><a href="page_calculatrice.html">Calculatrice</a></li>
+                    <li><a href="page_convertisseur.html">Convertisseur</a></li>
+                    <li><a href="page_calendrier.html">Calendrier des fêtes</a></li>
+                </ul> 
+            </nav>
+            <!--Fin Menu-->
+        </header>
+
+            <section><!--Image de présentation-->
+                <h1>Bienvenue sur Wedigo, le site qui vous propose des widgets en javascript.</h1>
+            </section>
 
         <main>
-            <article>
-                <img src="images/logo_meteo.png" alt="Soleil avec un nuage rose">
+        <!--Début Section principale-->
+            <article >
+                <a href="page_meteo.html"> <img src="assets/images/meteo.svg" alt="Soleil avec un nuage rose" > </a>
                 <div>
-                <p>Qu'il pleuve qu'il neige ou </p>
-                <p>qu'il vente, pour découvrir </p>
-                <p>la météo de votre ville c'est par ici.</p>
-                <button><a href="page_météo.html">Météo</a></button>
+                    <p>Qu'il pleuve qu'il neige ou</p>
+                    <p>qu'il vente, pour découvrir </p>
+                    <p>la météo de votre ville c'est par ici.</p>
+                    <button><a href="page_meteo.html">Météo</a></button>
                 </div>
             </article>
 
             <article>
-                <img src="images/logo_calculatrice.jpg" alt="Calculatrice verte">
                 <div>
-                    <p>Un calcul à faire ? La Calculatrice</p>
+                    <p>Un calcul à faire ? La Calculatrice</p> 
                     <p>Wedigo est la pour vous aider !</p>
                     <button><a href="page_calculatrice.html">Calculatrice</a></button>
                 </div>
+                <a href="page_calculatrice.html"><img src="assets/images/calculatrice.svg" alt="Calculatrice verte"></a>
             </article>
 
             <article>
-                <img src="images/logo_convertiseur.jpg" alt="Icone d'une règle.">
+                <a href="page_convertisseur.html"><img src="assets/images/convertisseur.svg" alt="Icone d'une règle."></a>
                 <div>
                     <p>Pas le temps de faire une converstion</p>
                     <p>d'unité de tête ? Pas de soucis,</p>
@@ -55,36 +61,39 @@
             </article>
 
             <article>
-                <img src="images/logo_calendrier.jpg" alt="Icone d'un Calendrier">
                 <div>
-                    <p>Vous ne savez pas qui on fête</p>
-                    <p>aujourd'hui? Venez voir notre</p>
-                    <p>calendrier des fêtes !</p>
-                    <button><a href="#">Calendrier</a></button>
+                    <p>Vous ne savez pas qui nous fêtons</p>
+                    <p>aujourd'hui? Pas de panique,</p>
+                    <p>venez voir notre page !</p>
+                    <button><a href="page_calendrier.html">Fête du jour</a></button>
                 </div>
+                    <a href="page_calendrier.html"><img src="assets/images/calendrier.svg" alt="Icone d'un Calendrier"></a>
             </article>
         </main>
-        
+        <!--Fin Section principale-->
+
+        <!--Début footer-->
         <footer>
-            <a href="#"><img src="images/logo_wedigo2.jpg" alt="logo Wedigo"></a>
+            <a href="index.html"><img src="assets/images/logo_wedigo2.jpg" alt="logo Wedigo"></a>
 
             <div>
                 <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Météo</a></li>
-                    <li><a href="#">Calculatrice</a></li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="page_meteo.html">Météo</a></li>
+                    <li><a href="page_calculatrice.html">Calculatrice</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Convertisseur</a></li>
-                    <li><a href="#">Calendrier des fêtes</a></li>
+                    <li><a href="page_convertisseur.html">Convertisseur</a></li>
+                    <li><a href="page_calendrier.html">Fête du jour</a></li>
                 </ul>
             </div>
 
             <div>
-                <a href="https://github.com/margauxc25"><img src="images/1200px-Octicons-mark-github.svg.png" alt="logo github"></a>
+                <a href="https://github.com/margauxc25"><img src="assets/images//1200px-Octicons-mark-github.svg.png" class="logogithub" alt="logo github"></a>
                 <p>© 2021 Wedigo All Right Reserved</p>
             </div>
         </footer>
-        
+        <!--Fin footer-->
+
     </body>
 </html>

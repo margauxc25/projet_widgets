@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.logowedigo2{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 25%;
+}
+
+nav div{
+    display: none;
+}
+
+section{
+    display: flex;
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.mobile img{
+    width: 4rem;
+}
+
+.mobile img:nth-child(2){
+    width: 2rem;
+}
+
+main{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.top-banner{
+    width: 80%;
+}
+
+.container{
+    width: 80%;
+}
+
+input{
+    font-size: 0.2rem;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0f1f2;
+    height: 10rem;   
+    width: 100%;
+}
+
+footer img{
+    height: 2rem; 
+    margin-left: 2rem;  
+}
+
+footer div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%; 
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    list-style: none;
+    padding-left : 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 0.5rem;
+}
+
+footer a{
+    color: #252525;
+    text-decoration: none;
+}
+
+footer p{
+font-size: 0.5rem;
+}

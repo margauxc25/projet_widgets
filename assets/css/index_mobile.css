@@ -1,0 +1,147 @@
+
+body{
+    font-family: 'Conv_arial-rounded-mt';
+    font-size: 1rem;
+}
+
+nav{
+    display: none;
+}
+
+section{
+    display: none;
+}
+
+.logowedigotête{
+    width: 8rem;
+}
+
+main ul{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+}
+
+
+main button{
+   display: none;
+}
+
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article:nth-child(1){
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+article:nth-child(1) img{
+    margin-right: 2rem;
+    width: 80%;
+}
+
+article:nth-child(2){
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+article:nth-child(2) img{
+    margin-left: 2rem;
+    width: 80%;
+}
+
+article:nth-child(3){
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+}
+
+article:nth-child(3) img{
+    margin-left: 2rem;
+    width: 60%;
+}
+
+article:nth-child(4){
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 8rem;
+}
+
+article:nth-child(4) img{
+    margin-left: 2rem;
+    width: 80%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0f1f2;
+    height: 10rem;   
+    width: 100%;
+}
+
+footer img{
+    height: 1.5rem; 
+    margin-left: 2rem;  
+}
+
+footer div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%; 
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    list-style: none;
+    padding-left : 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 0.5rem;
+}
+
+footer a{
+    color: #252525;
+    text-decoration: none;
+}
+
+.logogithub{
+    height: 2.5vh;
+    margin-left: 2%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+footer p{
+font-size: 0.5rem;
+}
+
+@font-face {
+	font-family: 'Conv_arial-rounded-mt';
+	src: url('font/arial-rounded-mt.eot');
+	src: local('☺'), url('font/arial-rounded-mt.woff') format('woff'), 
+    url('font/arial-rounded-mt.ttf') format('truetype'), 
+    url('font/arial-rounded-mt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

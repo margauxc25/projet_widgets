@@ -1,0 +1,14 @@
+<svg width="386" height="373" viewBox="0 0 386 373" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="192.5" cy="177.5" r="112" stroke="black" stroke-width="3"/>
+<line x1="194.5" x2="194.5" y2="46" stroke="black" stroke-width="3"/>
+<line x1="325" y1="175.5" x2="371" y2="175.5" stroke="black" stroke-width="3"/>
+<line x1="9" y1="175.5" x2="55" y2="175.5" stroke="black" stroke-width="3"/>
+<line x1="289.036" y1="85.4192" x2="324.274" y2="55.8509" stroke="black" stroke-width="3"/>
+<line x1="56.0607" y1="52.9393" x2="88.5876" y2="85.4663" stroke="black" stroke-width="3"/>
+<circle cx="68.5" cy="251.5" r="68" fill="#ECCDE2" stroke="#ECCDE2"/>
+<circle cx="155.5" cy="297.5" r="68" fill="#ECCDE2" stroke="#ECCDE2"/>
+<path d="M317.5 309.5C317.5 344.259 287.092 372.5 249.5 372.5C211.908 372.5 181.5 344.259 181.5 309.5C181.5 274.741 211.908 246.5 249.5 246.5C287.092 246.5 317.5 274.741 317.5 309.5Z" fill="#ECCDE2" stroke="#ECCDE2"/>
+<circle cx="249.5" cy="239.5" r="68" fill="#ECCDE2" stroke="#ECCDE2"/>
+<circle cx="147.5" cy="228.5" r="68" fill="#ECCDE2" stroke="#ECCDE2"/>
+<circle cx="317.5" cy="263.5" r="68" fill="#ECCDE2" stroke="#ECCDE2"/>
+</svg>

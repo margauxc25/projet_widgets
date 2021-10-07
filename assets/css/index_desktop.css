@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color:#252525 ;  
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+header img {
+    height: 3rem;
+    margin-left: 3rem;
+}
+nav {
+    width: 40%;
+    margin-right: 3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: #252525;
+    text-decoration: none;
+    padding: 1.3rem 2rem;
+}
+
+li:nth-child(1) a:hover {
+    background-color: #F3CDF3 ;
+}
+
+li:nth-child(2) a:hover {
+    background-color: #BEE4BA ;
+}
+
+li:nth-child(3) a:hover {
+    background-color: #BDE3F7 ;
+}
+
+li:nth-child(4) a:hover {
+    background-color: #FFFBA7 ;
+}
+
+/*Image de présentation*/
+section {
+    height: 70vh;
+    background-image: url("../images/img_presentation.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    width: 50%;
+    text-align: center;
+    color:#3a3a3a ;
+}
+
+/*Section principale*/
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article:nth-child(1){
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: solid 3px #FFFBA7;
+}
+
+article:nth-child(1) img{
+    height: 25rem;
+}
+
+article:nth-child(2){
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: solid 3px #F3CDF3 ;
+}
+
+article:nth-child(2) img{
+    height: 25rem;
+}
+
+article:nth-child(3){
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: solid 3px #BEE4BA  ;
+}
+
+article:nth-child(3) img{
+    width: 30rem;
+}
+
+article:nth-child(4){
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: solid 3px #BDE3F7  ;
+    
+}
+
+article:nth-child(4) img{
+    height: 20rem;
+}
+
+article p {
+    font-size: 1.5rem;
+}
+
+button a {
+    color: #252525;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+button:nth-child(1):hover {
+    background-color: #F3CDF3;
+}
+/* Footer bas de page*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0f1f2;
+    height: 10rem;   
+}
+
+footer img{
+    height: 3rem;   
+}
+
+footer div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%; 
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    list-style: none;
+    padding-left : 3rem;
+    padding-bottom: 1rem;
+}
+
+footer a{
+    color: #252525;
+    text-decoration: none;
+}
+
+.logogithub{
+    height: 5vh;
+    margin-left: 45%;
+    margin-bottom: 1rem;
+}
+

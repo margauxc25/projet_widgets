@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="météo.css">
+      <link rel="stylesheet" media="screen and (max-width: 640px)" href="météo_mobile.css" />
+      <title>Wedigo</title>
+  </head>
+
+  <body>
+
+    <!--Menu sur le côté-->
+    <nav class="desktop">
+      <div>
+        <a href="index.html"><img src="images/logo_wedigo2.jpg" class="logowedigo"></a>
+        <a href="page_météo.html"><img src="images/logo_meteo2.jpg" alt="Image soleil avec un nuage rose"></a>
+        <a href="page_calculatrice.html"><img src="images/logo_calculatrice2.jpg" alt="Image d'une calculatrice verte"></a>
+        <a href="page_convertisseur.html"><img src="images/logo_convertiseur2.jpg" alt="Image d'un règle"></a>
+        <a href="page_calendrier.html"><img src="images/logo_calendrier2.jpg" alt="Image d'un calendrier"></a>
+      </div>
+
+      <div>
+        <a href="https://github.com/margauxc25"><img src="images/1200px-Octicons-mark-github.svg.png" class="logogithub" alt="logo github"></a>
+        <p>© 2021 Wedigo All Right Reserved</p>
+      </div>
+    </nav>
+    <!--Fin Menu sur le côté-->
+  <a href="index.html"><img src="images/logo_wedigo.jpg" class="logowedigo2"></a>
+    <section class="mobile">
+      
+        <a href="page_météo.html"><img src="images/logo_meteo.png" alt="Image soleil avec un nuage rose"></a>
+        <a href="page_calculatrice.html"><img src="images/logo_calculatrice.jpg" alt="Image d'une calculatrice verte"></a>
+        <a href="page_convertisseur.html"><img src="images/logo_convertiseur.jpg" alt="Image d'un règle"></a>
+        <a href="page_calendrier.html"><img src="images/logo_calendrier.jpg" alt="Image d'un calendrier"></a>  
+    </section>
+
+    <h1>Météo</h1>
+
+    <!--Partie principale-->
+    <main>
+        <section class="top-banner">
+
+            <div class="container">
+              <h2 class="heading">Choisisez votre ville</h2>
+              <form>
+                <input type="text" placeholder="Rechercher une ville" autofocus>
+                <button type="submit">OK</button>
+                <span class="msg"></span>
+              </form>
+            </div>
+          </section>
+
+          <section class="ajax-section">
+            <div class="container">
+              <ul class="cities"></ul>
+            </div>
+        </section>
+    </main>
+    <!--Fin partie principale-->
+
+    <footer>
+
+      <div>
+          <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="page_météo.html">Météo</a></li>
+              <li><a href="page_calculatrice.html">Calculatrice</a></li>
+          </ul>
+          <ul>
+              <li><a href="page_convertisseur.html">Convertisseur</a></li>
+              <li><a href="page_calendrier.html">Fête du jour</a></li>
+          </ul>
+      </div>
+  </footer>
+
+    <script type="text/javascript" src="météo.js"></script>  
+</body>
+</html>
